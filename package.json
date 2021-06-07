@@ -3,9 +3,6 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    
-  },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",
     "@vuepress/plugin-docsearch": "^2.0.0-alpha.1",
