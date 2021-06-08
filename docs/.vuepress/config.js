@@ -2,7 +2,7 @@ const configs = require('./configs')
 const { path } = require('@vuepress/utils')
 
 module.exports = {
-  base: '/konwledge/',
+  base: '/knowledge/',
   lang: 'zh-CN',
   title: '知识源泉',
   description: '知识积累',
