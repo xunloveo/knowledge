@@ -2,6 +2,7 @@ const configs = require('./configs')
 const { path } = require('@vuepress/utils')
 
 module.exports = {
+  base: '/konwledge/',
   lang: 'zh-CN',
   title: '知识源泉',
   description: '知识积累',
@@ -18,7 +19,7 @@ module.exports = {
   ],
   themeConfig: {
     logo: '/logo.png',
-    repo: 'xunloveo/knowledge-blog',
+    repo: 'xunloveo/knowledge',
     navbar: configs.navbar,
     sidebar: configs.sidebar,
 
