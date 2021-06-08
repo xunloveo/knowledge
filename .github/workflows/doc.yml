@@ -58,7 +58,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
-          repo: knowledge/xunloveo.github.io
+          # repo: knowledge/xunloveo.github.io
+          repo: https://github.com/xunloveo/konwledge.git
           target_branch: main
           build_dir: docs/.vuepress/dist
         env:
