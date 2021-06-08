@@ -60,8 +60,9 @@ jobs:
         with:
           # repo: knowledge/xunloveo.github.io
           repo: xunloveo/konwledge
-          target_branch: main
-          # build_dir: docs/.vuepress/dist
+          # target_branch: main
+          target_branch: release
+          build_dir: docs/.vuepress/dist
         env:
           # GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
           # GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
