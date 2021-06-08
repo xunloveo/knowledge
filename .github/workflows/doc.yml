@@ -59,7 +59,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.2.0
         with:
           # repo: knowledge/xunloveo.github.io
-          repo: xunloveo/konwledge
+          repo: xunloveo/knowledge
           # target_branch: main
           target_branch: release
           build_dir: docs/.vuepress/dist
