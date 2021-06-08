@@ -63,4 +63,5 @@ jobs:
           build_dir: docs/.vuepress/dist
         env:
           # GH_PAT: ${{ secrets.GH_PAGES_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+          # GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
